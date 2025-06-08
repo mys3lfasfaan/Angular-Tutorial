@@ -1,0 +1,35 @@
+.btn{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#inc{
+    background-color: green;
+}
+
+#dec{
+    background-color: red;
+}
+
+#reset{
+    background-color: black;
+}
+
+.btn:hover{
+    border: 1px solid white;
+}
+
+.count{
+    border: 3px;
+    background-color: lightgrey;
+    width: 100px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid black;
+}

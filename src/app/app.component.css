@@ -1,0 +1,7 @@
+.app1, .app2{
+    text-align: center;
+}
+
+.app1:hover{
+    background-color: lightgray;
+}
