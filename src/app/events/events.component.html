@@ -1,0 +1,15 @@
+<h1>Event Handling</h1>
+
+<button class="app2" name="hello" (click)="handleEvent($event)" >Event</button>
+
+<div (mouseenter)="handleEvent($event)" 
+style="background-color: green; height: 80px; width: 80px; font-size: 30px;">
+{{timesCameInside}}</div>
+<div (mouseleave)="handleEvent($event)" 
+style="background-color: blue; height: 80px; width: 80px; font-size: 30px; text-align: center;">
+{{timesWentOutside}}</div>
+
+<input type="text" 
+(input)="handleEvent2($event)"
+(blur)="handleEvent2($event)"
+(focus)="handleEvent2($event)" name="user">
